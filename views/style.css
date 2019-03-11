@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(black, grey, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+.main {
+    font-family: 'Sigmar One', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.secondary {
+    font-family: 'Sigmar One', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Sigmar One', cursive;
+}
+
+.descr {
+    display: flex;
+    justify-content: center;
+
+}

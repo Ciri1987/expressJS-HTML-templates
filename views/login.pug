@@ -1,0 +1,19 @@
+doctype html
+html    
+    head
+        stylesheet(href="https://fonts.googleapis.com/css?family=Sigmar+One")
+        style
+            include style.css
+        title=title
+    body
+    h1.main This is fake login page
+    h2.secondary Please sign in, if you want
+    
+    form(action=url)
+      p.first
+        | First Name: 
+        input(type='text', name='first_name')
+      p.last
+        | Last Name: 
+        input(type='text', name='last_name')
+        button(type='submit') Log in
